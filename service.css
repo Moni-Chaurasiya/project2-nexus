@@ -1,0 +1,158 @@
+.MainImg {
+  width: 100vw;
+  position: relative;
+
+
+}
+
+.head {
+  position: absolute;
+  width: 25vw;
+  font-size: 5vw;
+  color: white;
+  top: 35%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 5px solid purple;
+  background-color: purple;
+  border-radius: 20px;
+
+}
+
+.head1 {
+  position: absolute;
+  width: 50vw;
+  font-size: 3vw;
+  color: rgb(245, 245, 7);
+  top: 80%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.body1 {
+  position: relative;
+  display: inline-block;
+}
+
+.body1 img {
+  display: block;
+  height: auto;
+}
+
+.body4 {
+  width: 100vw;
+  height: auto;
+  background-color: skyblue;
+
+}
+
+.body4 h1 {
+  font-size: 2.5vw;
+  text-align: center;
+  color: rgb(2, 61, 86);
+}
+
+.body4 .P4 {
+  text-align: center;
+  width: 55vw;
+  height: auto;
+  font-size: 1.5vw;
+  background-color: purple;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  color: white;
+  border: 4px solid black;
+}
+
+.P4 p {
+  width: 50vw;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 30px;
+
+}
+
+.CSS {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width:600px) {
+  .CSS {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .C2 {
+    width: 60vw;
+    margin-left: 28vw;
+    margin-bottom: 30px;
+  }
+
+  .Css {
+    width: 60vw;
+  }
+
+  .body4.P4 {
+    margin-left: 20vw;
+  }
+
+  .P {
+    margin-left: 15vw;
+  }
+
+  .P4 p {
+    width: 40vw;
+  }
+
+}
+
+.Css {
+  margin-top: 4vw;
+  width: 35vw;
+  margin-left: 3vw;
+  border-radius: 20px;
+}
+
+.body5 h1 {
+  font-size: 2.5vw;
+  text-align: center;
+  color: rgb(2, 122, 174);
+}
+
+.F1 {
+  width: 40vw;
+
+}
+
+.F2 {
+  width: 40vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 40vh;
+  border: 4px solid rgb(24, 176, 236);
+}
+
+.F3 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 7vw;
+}
+
+.body5 {
+  margin-bottom: 40px;
+}
